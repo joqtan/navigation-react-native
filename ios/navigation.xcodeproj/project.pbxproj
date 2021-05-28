@@ -36,6 +36,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = navigation/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = navigation/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = navigation/main.m; sourceTree = "<group>"; };
+		1BA0FD5A266073A3009938A1 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = navigation/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83E397B59C7958CFA2E583DF /* Pods-navigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navigation.release.xcconfig"; path = "Target Support Files/Pods-navigation/Pods-navigation.release.xcconfig"; sourceTree = "<group>"; };
 		9DD189B2BFED7874641350F3 /* libPods-navigation-navigationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-navigation-navigationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +97,14 @@
 			name = navigation;
 			sourceTree = "<group>";
 		};
+		1BA0FD5726607342009938A1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1BA0FD5A266073A3009938A1 /* Ionicons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		27CBFB127B515DEADDBA2242 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,7 +113,6 @@
 				A014C76A5BEDDFE2851E9BFA /* Pods-navigation-navigationTests.debug.xcconfig */,
 				EFDD6AC605FE2A0CFE4196F6 /* Pods-navigation-navigationTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -128,6 +136,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				1BA0FD5726607342009938A1 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* navigation */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* navigationTests */,
