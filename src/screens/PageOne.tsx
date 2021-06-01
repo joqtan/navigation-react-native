@@ -9,6 +9,7 @@ const PageOne = ({navigation}: Props) => {
   useEffect(() => {
     navigation.setOptions({
       headerLeft: () => (
+        // eslint-disable-next-line react-native/no-inline-styles
         <TouchableOpacity style={{marginLeft: 15}}>
           <Icon
             name="menu"
